@@ -2,7 +2,7 @@
 @import url(normalize.css);
 
 body{
-    background-color: #fbf9cc;
+    background-color: bisque;
     color: rgb(71, 1, 136);
 }
 a{
@@ -38,4 +38,8 @@ main{
 }
 header,nav,footer{
     text-align: center;
+}
+span{
+    font-size: 2em;
+    color:brown;
 }
