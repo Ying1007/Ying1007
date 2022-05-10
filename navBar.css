@@ -1,5 +1,5 @@
 nav{
-    background-color: bisque;
+    background-color: blue;
     text-align: right;
 }
 nav li{
@@ -10,14 +10,15 @@ nav li a{
     display: block;
     text-decoration: none;
     padding: 10px;
-    color: rgb(0, 0, 0);
+    color: white;
 }
 nav li a:hover{
-    background-color: rgb(184, 184, 255);
+    background-color: rgb(0, 255, 0);
     color: red;
-    transition: background-color 2s linear, color 2s ease-in-out;
+    transition: background-color 1s linear, color 1s ease-in-out;
 }
 nav ul{
-    margin: 0px;
+    margin:0;
+    padding:0;
     margin-right: 10px;
 }
