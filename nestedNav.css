@@ -1,9 +1,12 @@
 /* ---------- 大小與定位 ---------- */
 #menu {
-	/* 選單大小 */
+	/* 選單寬度 */
 	width: 600px;
+	/* 選單高度 */
 	height: 50px;
 	float: right;
+	border: 2px solid  yellow;
+  	border-radius: 5px;
 }
 #menu ul {
 	/* 取消ul樣式符號 */

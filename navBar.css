@@ -1,3 +1,6 @@
+body{
+    margin: 0px;
+}
 nav{
     background-color: blue;
     text-align: right;
@@ -15,7 +18,7 @@ nav li a{
 nav li a:hover{
     background-color: rgb(0, 255, 0);
     color: red;
-    transition: background-color 1s linear, color 1s ease-in-out;
+    transition: background-color 0.8s linear, color 0.8s ease-in-out;
 }
 nav ul{
     margin:0;
