@@ -10,9 +10,9 @@
 	padding: 0; /* 重設ul留白為零 */
 	overflow: auto; /* 內有浮動元件時，需設overflow才會自動調整大小 */
 }
-#menu ul li {
-	/*float: right; /* 利用float讓第一層li水平排列 */
-}
+/* #menu ul li {
+	/*float: right; /* 利用float讓第一層li水平排列 *
+} */
 #menu ul li a {
 	display: block; /* 將a改為區塊元件，以便指定寬高 */
 	float: left; /* 這邊也要設float，否則IE6會以100%寬度顯示 */
