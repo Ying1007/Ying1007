@@ -16,8 +16,7 @@ time, mark, audio, video {
     outline: 0;
     font-size: 100%;
     font: inherit;
-    vertical-align: baseline;
-    
+    vertical-align: baseline;    
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -29,7 +28,6 @@ body {
     font: 16px/1.4em 'PT Sans', sans-serif;;
     color: #000000;
     background-color: #E7DECD;
-    
     margin: auto;
 }
 ul {
@@ -57,14 +55,12 @@ table {
     border-spacing: 0;
 }
  
-p,
-ul {
-    margin: 0 0 ;
+p{
+    margin: 0;
 }
  
 ul {
     list-style: square;
-    padding: 0 0 0 20px;
 }
  
 a {
@@ -143,13 +139,8 @@ a.to_nav {
     -moz-border-radius: 2px;
     border-radius: 2px;
 }
-
-.menu a {
-    
-}
  
-a.to_nav:hover,
-a.to_nav:focus {
+a.to_nav:hover,a.to_nav:focus {
     color: #abc37b;
     background: rgb(255, 255, 255);
 
@@ -157,32 +148,30 @@ a.to_nav:focus {
 #primary_nav ul {
     list-style: none;
     background: #BBD686;
-    padding: 5px 0;
+    /* padding: 5px 0; */
 }
  
 #primary_nav li a {
     display: block;
     padding: 0 20px;
     color: #fff;
-    text-decoration: none;
+    /* text-decoration: none; */
     font-weight: bold;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    letter-spacing: 0.1em;
-    line-height: 2em;
-    height: 2em;
-    border-bottom: 1px solid #383838;
+    /* text-transform: uppercase; */
+    /* letter-spacing: 0.1em; */
+    /* letter-spacing: 0.1em; */
+    line-height: 2.5em;
+    /* height: 2em; */
+    /* border-bottom: 1px solid #383838; */
 }
  
-#primary_nav li:last-child a {
+/* #primary_nav li:last-child a {
     border-bottom: none;
-}
+} */
  
-#primary_nav li a:hover,
-#primary_nav li a:focus {
+#primary_nav li a:hover,#primary_nav li a:focus {
     color: #ffffff;
     background: #BF4342;
-
 }
  
 
@@ -209,19 +198,18 @@ footer {
 #primary_nav {
     position: absolute;
     top: 5px;
-    right: 10px;
+    right: 0;
     background: none;
 }
  
 #primary_nav li {
     display: inline;
-    
 }
  
 #primary_nav li a {
     float: left;
     border: none;
-    padding: 0 10px;
+    padding: 0 15px;
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
     border-radius: 2px;
@@ -230,7 +218,7 @@ footer {
 .menu li {
     list-style-type: none;
     display: inline-block;
-    width: 200px;
+    /* width: 200px; */
     margin: 0 ;
 }
 .menu a {
@@ -247,7 +235,7 @@ nav{
 }
 nav li{
     list-style: none;
-    display: inline-block;  
+    display: inline-block;
 }
 nav li a{
     display: block;
@@ -258,6 +246,49 @@ nav li a{
 nav li a:hover{
     background-color: antiquewhite;
     color: red;
+}
+
+
+#primary_nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: auto;
+}
+#primary_nav ul li {
+	float: left;
+}
+#primary_nav ul li a {
+	display: block;
+	float: right;
+	height: 45px;
+	text-align: center;
+}
+.to a{
+  width: 160px;
+}
+#primary_nav ul li ul {
+	position: absolute;
+	width: 160px;
+	overflow: visible;
+	clear: left;
+	margin-top: 45px;
+	margin-bottom: 0;
+	margin-left: 0;
+	margin-right: 0;
+}
+#primary_nav ul li ul li {
+	float: none;
+}
+#primary_nav ul li ul li a {
+	float: none;
+	width: 100%;
+}
+#primary_nav ul li ul {
+	visibility: hidden;
+}
+#primary_nav ul li:hover ul {
+	visibility: visible;
 }
 
 /* #header{
@@ -1067,10 +1098,6 @@ http://stackoverflow.com/a/34696029/383904
 
 .html {
   font-size: 62.5%;
-}
-
-body {
-  font-family: "Poppins", sans-serif;
 }
 
 /* ///////////..utility classes../////////// */
@@ -1886,3 +1913,12 @@ http://stackoverflow.com/a/34696029/383904
   font-family: 標楷體;
   font-weight:bold;
 }
+
+
+/* .to ul{
+  display: block;
+	float: left;
+	height: 50px;
+	width: 120px;
+	text-align: center;
+} */
