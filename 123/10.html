@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>第四組-大同育幼院</title>
+    <link rel="stylesheet" href="0613-1.css">
+    <link rel="shortcut icon" href="img/B_2040234000.png" type="image/x-icon">
+</head>
+
+<body id="home">
+
+    <div class="wrapper">
+        <header>
+            <h1 class="logo"><a href="https://www.ccf.org.tw/60">大同育幼院</a></h1>
+            <a class="to_nav" href="#primary_nav"></a>
+        </header>
+    </div>
+    <section class="showcase-area" id="showcase">
+        <div class="showcase-container">
+            <h1 class="main-title" id="home">大同育幼院</h1>
+            <p>用愛溫暖 生命的角落</p>
+            <a href="https://www.facebook.com/tfcf60/" class="btn btn-primary">點我打卡</a>
+        </div>
+    </section>
+    <section>
+        <img class="mySlides" src="img/286050404_1479276219194236_2524982547131287999_n.jpg" alt="1">
+        <img class="mySlides" src="img/285712947_716079022996037_828530187367416759_n.jpg" alt="1">
+        <img class="mySlides" src="img/286256825_3275777902655016_6143996652365729797_n.jpg" alt="1">
+    
+        <script>
+            var myIndex = 0;
+            carousel();
+
+            function carousel() {
+                var i;
+                var x = document.getElementsByClassName("mySlides");
+                for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";
+                }
+                myIndex++;
+                if (myIndex > x.length) { myIndex = 1 }
+                x[myIndex - 1].style.display = "block";
+                setTimeout(carousel, 2000); // Change image every 1.5 seconds
+            }
+        </script>
+
+        
+
+    </section>
+
+
+    <div class="fl">
+        <h1 style="color: #A78682;">童心園</h1>
+        <br>
+        <p style="color: #6F5060;">
+            👼運用此園區自然元素<br>
+            👼創造服務對象『與泥土相親近，與植物做朋友』<br>
+            👼純真童心將在此獲得滋養與成長
+            <br>
+            
+    </div>
+    <nav id="primary_nav">
+
+        <ul class="menu">
+
+            <li class="top"><a href="00.html">首頁</a></li>
+
+            <li class="top"><a href="0613.html">大同十景</a></li>
+
+            <li class="top"><a href="https://www.ccf.org.tw/60">大同育幼院</a></li>
+
+            <li class="top"><a href="contact.html">聯絡我們</a></li>
+        </ul>
+
+    </nav>
+</body>
+
+</html>

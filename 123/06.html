@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>第四組-大同育幼院</title>
+    <link rel="stylesheet" href="0613-1.css">
+    <link rel="shortcut icon" href="img/B_2040234000.png" type="image/x-icon">
+</head>
+
+<body id="home">
+
+    <div class="wrapper">
+        <header>
+            <h1 class="logo"><a href="https://www.ccf.org.tw/60">大同育幼院</a></h1>
+            <a class="to_nav" href="#primary_nav"></a>
+        </header>
+    </div>
+    <section class="showcase-area" id="showcase">
+        <div class="showcase-container">
+            <h1 class="main-title" id="home">大同育幼院</h1>
+            <p>用愛溫暖 生命的角落</p>
+            <a href="https://www.facebook.com/tfcf60/" class="btn btn-primary">點我打卡</a>
+        </div>
+    </section>
+    <section>
+        <img class="mySlides" src="img/285999884_1676485029400910_2337500809580624209_n.jpg" alt="1">
+        <img class="mySlides" src="img/285744699_558757815818183_760398640895248973_n.jpg" alt="1">
+        <img class="mySlides" src="img/286416534_335563188756107_8232397482449929758_n.jpg" alt="1">
+    
+        <script>
+            var myIndex = 0;
+            carousel();
+
+            function carousel() {
+                var i;
+                var x = document.getElementsByClassName("mySlides");
+                for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";
+                }
+                myIndex++;
+                if (myIndex > x.length) { myIndex = 1 }
+                x[myIndex - 1].style.display = "block";
+                setTimeout(carousel, 2000); // Change image every 1.5 seconds
+            }
+        </script>
+
+        
+
+    </section>
+
+
+    <div class="fl">
+        <h1 style="color: #28AFB0;">青春園地</h1>
+        <br>
+        <p style="color: #19647E;">
+            🍀青春園地是大同孩子成長的地方<br>
+            🍀男孩女孩從進到大同便在這裡生活<br>
+            🍀有歡笑亦有淚水，每段都是青春的回憶
+    </div>
+    <nav id="primary_nav">
+
+        <ul class="menu">
+
+            <li class="top"><a href="00.html">首頁</a></li>
+
+            <li class="top"><a href="0613.html">大同十景</a></li>
+
+            <li class="top"><a href="https://www.ccf.org.tw/60">大同育幼院</a></li>
+
+            <li class="top"><a href="contact.html">聯絡我們</a></li>
+
+        </ul>
+
+    </nav>
+</body>
+
+</html>
